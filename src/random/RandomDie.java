@@ -3,7 +3,7 @@ import java.util.*;
 public class RandomDie {
 	private static Random r = new Random();
 	public static int nSidedDie(int n) {
-		return r.nextInt(n);
+		return r.nextInt(n)+1;
 	}
 	public static double randomFromZeroToOne() {
 		return r.nextDouble();
